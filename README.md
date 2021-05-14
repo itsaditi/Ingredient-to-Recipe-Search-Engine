@@ -1,5 +1,7 @@
 # Ingredient-to-Recipe-Search-Engine
 
+![Video Demo](https://youtu.be/b1KRo5usTh4)
+
 ![DB Schema](https://github.com/itsaditi/Ingredient-to-Recipe-Search-Engine/blob/main/DB_Schema.jpeg)
 ### Installing virtualenv
 ```bash
