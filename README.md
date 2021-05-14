@@ -1,5 +1,6 @@
 # Ingredient-to-Recipe-Search-Engine
 
+![DB Schema](https://github.com/itsaditi/Ingredient-to-Recipe-Search-Engine/blob/main/DB_Schema.jpeg)
 ### Installing virtualenv
 ```bash
 pip3 install virtualenv
