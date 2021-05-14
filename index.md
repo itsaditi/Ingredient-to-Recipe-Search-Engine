@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+## Ingredient-to-Recipe-Search-Engine
 
-You can use the [editor on GitHub](https://github.com/itsaditi/Ingredient-to-Recipe-Search-Engine/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Identified system requirements and designed a relational database schema that met the constraints and gave the list of recipes for the given input list of ingredients. 45000 recipes were scrapped from foodnetwork.com using Python to populate the database. MySQL was used to query the designed database. An Interface was created using Flask (Python Web Framework).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Video Demo](https://youtu.be/b1KRo5usTh4)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+![DB Schema](https://github.com/itsaditi/Ingredient-to-Recipe-Search-Engine/blob/main/DB_Schema.jpeg)
+### Installing virtualenv
+```bash
+pip3 install virtualenv
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### To check whether virtualenv exists and its version
+```bash
+virtualenv --version
+```
 
-### Jekyll Themes
+### Creating virtual environment in directory
+```bash
+cd flaskproj
+virtualenv env
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/itsaditi/Ingredient-to-Recipe-Search-Engine/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### virtualenv env: Creates env folder
 
-### Support or Contact
+### Start Windows Subsystem for Linux (WSL) by typing:
+```bash
+WSL
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Activate the virtualenv:
+```bash
+source env/Scripts/activate
+```
+Inside virtualenv:
+
+### Install flask_MYsql:
+```bash
+pip3 install pymysql
+```
+
+### To run the code: 
+```bash
+python3 main.py
+```
+
+This code reads the parsed JSON and creates the database and the following tables:
+* receipe_title
+* receipe_instru
+* receipe_ingre
