@@ -40,6 +40,6 @@ python3 main.py
 ```
 
 This code reads the parsed JSON and creates the database and the following tables:
-receipe_title
-receipe_instru
-receipe_ingre
+* receipe_title
+* receipe_instru
+* receipe_ingre
