@@ -4,7 +4,7 @@ Identified system requirements and designed a relational database schema that me
 
 [Video Demo](https://youtu.be/b1KRo5usTh4)
 
-[DB Schema](https://github.com/itsaditi/Ingredient-to-Recipe-Search-Engine/blob/main/DB_Schema.jpeg)
+![DB Schema](https://github.com/itsaditi/Ingredient-to-Recipe-Search-Engine/blob/main/DB_Schema.jpeg)
 ### Installing virtualenv
 ```bash
 pip3 install virtualenv
